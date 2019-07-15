@@ -1,0 +1,7 @@
+.value h1 {
+	background: var(--dark-yellow);
+	display: inline-flex;
+	color: var(--grey);
+	margin: 3rem -6rem;
+	padding: 1rem;
+}

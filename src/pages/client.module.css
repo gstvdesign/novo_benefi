@@ -1,0 +1,8 @@
+.client {
+	margin: 2rem;
+}
+
+.name {
+	background: var(--blue);
+	padding: 1rem;
+}

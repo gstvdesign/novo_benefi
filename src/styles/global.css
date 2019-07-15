@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Literata:400,400i,700,700i|Work+Sans:400,700&display=swap');
+
+:root {
+	--dark-yellow: #E4AA59;
+	--vanilla: #FFF0D8;
+	--blue: #6699CC;
+	--red: #C03E33;
+	--grey:#3D352B;
+}
+
+*, html, body {margin: 0; padding: 0;}
+
+html {
+  background-color: var(--red);
+  font-family: 'Literata', serif;
+  color: var(--vanilla);
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+img{
+	max-width: 100%;
+}
+
+.shine {
+	padding: 1.5rem;
+	margin-top: 2rem;
+	text-align: center;
+	background: var(--vanilla);
+	color: var(--grey);
+}
+
+p {
+	font-size: 20px;
+	margin-top: 1rem;
+}
+
+strong {
+
+}
