@@ -4,4 +4,14 @@
 	color: var(--grey);
 	margin: 3rem -6rem;
 	padding: 1rem;
+	box-shadow: 3px 3px 5px rgba(0,0,0,.5);
+	transition: transform .5s;
+}
+
+.value h1:hover {
+	transform: rotate(5deg);
+}
+
+@media only screen and (max-width: 768px) {
+	.value h1{ margin: 3rem 0; }
 }

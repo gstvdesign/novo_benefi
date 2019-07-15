@@ -35,6 +35,17 @@ img{
 	text-align: center;
 	background: var(--vanilla);
 	color: var(--grey);
+	box-shadow: 3px 3px 5px rgba(0,0,0,.5);
+}
+
+.shine-blue {
+	padding: 1.5rem;
+	margin-top: 2rem;
+	text-align: center;
+	background: var(--blue);
+	color: var(--vanilla);
+	box-shadow: 3px 3px 5px rgba(0,0,0,.5);
+	animation: 7s ease-out 3s infinite ctaAnimate;
 }
 
 p {
@@ -43,5 +54,40 @@ p {
 }
 
 strong {
+	animation: 2s ease-out 1s 3 strongAnimate;
+	font-family: 'Work Sans', sans-serif;
+}
 
+@media only screen and (max-width: 768px) {
+	body{
+		padding: 0 1rem;
+	}
+}
+
+@keyframes strongAnimate {
+	0% {
+		background: var(--red);
+	}
+
+	50% {
+		background: var(--vanilla);
+		color: var(--blue);
+	}
+
+	100% {
+		background: var(--red);
+		color: var(--vanilla);
+	}
+}
+
+@keyframes ctaAnimate {
+	0% {
+		background: var(--blue);
+		color: var(--vanilla);
+	}
+
+	50% {
+		background: var(--vanilla);
+		color: var(--blue);
+	}
 }

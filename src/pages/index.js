@@ -13,7 +13,7 @@ const Client = props => (
 		</div>
 		<Article>
 			<p className={clientStyles.text}>{props.job}</p>
-			<Button buttonLink={props.link}/>
+			<Button buttonLink={props.link} buttonText={props.text}/>
 		</Article>
 	</div>
 )
@@ -31,6 +31,7 @@ export default () => (
 			job="Trabalhando juntos desde 2009, esse é terceiro site construído para o Eirene. Esse site tem a função simples de facilitar a demonstração de interesse de um possível aluno nos cursos da instituição.
 					 Para isso a $Name reescreveu todos os textos descritivos dos cursos para torná-los mais promocionais e se conectarem melhor com o público alvo. Depois foram criados chamadas para ação que levam a formulários que pedem o nome e email do possível aluno."
 			link="http://eirene.com.br"
+			text="Clique aqui para visitar o site"
 		/>
 
 		<Client
@@ -38,6 +39,7 @@ export default () => (
 			img="/sites/w-prod.png"
 			job="Normalmente as noivas começam escolhendo o local para casar e é a partir da recomendação desse local que os outros profissionais de casamento são escolhidos. O porém é que as noivas já estão super conectadas e usam muito internet. A W Produções vai usar um mix de entender as noivas com uma presença na internet (através de redes sociais e anúncios no Google) para ser a primeira escolha da noiva."
 			link="http://wproducoesdeeventos.com.br/"
+			text="Clique aqui para visitar o site"
 		/>
 
 		<Client
@@ -45,6 +47,14 @@ export default () => (
 			img="/sites/nacional.png"
 			job="O primeiro site que construí foi o da Naciona em 2006. No site que está construído agora, além de ser uma versão digital e mobile do catálogo impresso, o site vai funcionar como uma ferramenta de divulgação dos novos lançamentos e dos eventos da qual a empresa participa."
 			link="http://nacionalmoveis.com.br/"
+			text="Clique aqui para visitar o site"
 		/>
+
+		<Article>
+			<h1 className="shine-blue">
+			<h1>Vamos trabalhar juntos?</h1>
+			<Button buttonLink="#" buttonText="Me chama no WhatsApp!" />
+			</h1>
+		</Article>
 	</Container>
 )

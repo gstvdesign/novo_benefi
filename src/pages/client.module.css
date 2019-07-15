@@ -5,6 +5,7 @@
 .name {
 	background: var(--blue);
 	padding: 1rem;
+	border-bottom: 5px solid var(--dark-yellow);
 }
 
 .text {
