@@ -53,7 +53,7 @@ export default () => (
 		<Article>
 			<h1 className="shine-blue">
 			<h1>Vamos trabalhar juntos?</h1>
-			<Button buttonLink="#" buttonText="Me chama no WhatsApp!" />
+			<Button buttonLink="https://api.whatsapp.com/send?phone=5547999703819" buttonText="Me chama no WhatsApp!" />
 			</h1>
 		</Article>
 	</Container>
