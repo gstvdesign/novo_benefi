@@ -2,6 +2,7 @@ import React from "react"
 import Header from "../components/header"
 import Article from "../components/article"
 import clientStyles from "./client.module.css"
+import Button from "../components/button"
 import Container from "../components/container"
 
 const Client = props => (
@@ -11,8 +12,8 @@ const Client = props => (
 			<img src={props.img} alt="" />
 		</div>
 		<Article>
-			<p>{props.job}</p>
-			<a href={props.link}>Confira o site</a>
+			<p className={clientStyles.text}>{props.job}</p>
+			<Button buttonLink={props.link}/>
 		</Article>
 	</div>
 )
